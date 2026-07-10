@@ -1,6 +1,6 @@
 const Item = require("../models/item");
 
-const InventoryHistory = require("../models/inventoryHistory");
+const InventoryHistory = require("../models/InventoryHistory");
 // -------------------------
 // Add Item
 // -------------------------

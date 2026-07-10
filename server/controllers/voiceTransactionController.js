@@ -8,7 +8,7 @@ const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY
 });
 const InventoryHistory =
-require("../models/inventoryHistory");
+require("../models/InventoryHistory");
 
 // Temporary until authentication is added
 
