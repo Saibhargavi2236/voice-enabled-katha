@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://voice-enabled-katha.onrender.com",
+  baseURL: "https://voice-enabled-katha.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {
