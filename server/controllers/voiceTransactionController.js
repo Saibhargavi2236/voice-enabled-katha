@@ -1,6 +1,6 @@
 const { GoogleGenAI } = require("@google/genai");
 
-const Customer = require("../models/customer");
+const Customer = require("../models/Customer");
 const Item = require("../models/item");
 const Transaction = require("../models/Transaction");
 const mergeDuplicateItems = require("../utils/mergeItems");
@@ -8,7 +8,7 @@ const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY
 });
 const InventoryHistory =
-require("../models/InventoryHistory");
+require("../models/inventoryHistory");
 
 // Temporary until authentication is added
 

@@ -1,11 +1,11 @@
 const Notification =
-require("../models/Notification");
+require("../models/notification");
 
 const Item =
 require("../models/item");
 
 const Customer =
-require("../models/customer");
+require("../models/Customer");
 
 // ----------------------------------
 // Get Notifications

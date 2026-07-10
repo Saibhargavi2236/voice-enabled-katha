@@ -1,4 +1,4 @@
-const Customer = require("../models/customer");
+const Customer = require("../models/Customer");
 const Transaction = require("../models/Transaction");
 
 const getDashboardSummary = async (req, res) => {
