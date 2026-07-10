@@ -1,5 +1,5 @@
 const Notification =
-require("../models/notification");
+require("../models/Notification");
 
 const Item =
 require("../models/item");
