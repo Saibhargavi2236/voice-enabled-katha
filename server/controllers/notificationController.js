@@ -2,10 +2,10 @@ const Notification =
 require("../models/Notification");
 
 const Item =
-require("../models/Item");
+require("../models/item");
 
 const Customer =
-require("../models/Customer");
+require("../models/customer");
 
 // ----------------------------------
 // Get Notifications

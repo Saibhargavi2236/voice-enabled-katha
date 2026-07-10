@@ -1,7 +1,7 @@
 const { GoogleGenAI } = require("@google/genai");
 
-const Customer = require("../models/Customer");
-const Item = require("../models/Item");
+const Customer = require("../models/customer");
+const Item = require("../models/item");
 const Transaction = require("../models/Transaction");
 const mergeDuplicateItems = require("../utils/mergeItems");
 const ai = new GoogleGenAI({
