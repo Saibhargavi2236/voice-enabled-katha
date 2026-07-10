@@ -1,5 +1,5 @@
 const Transaction = require("../models/Transaction");
-const Customer = require("../models/Customer");
+const Customer = require("../models/customer");
 const Item = require("../models/item");
 // ------------------------------------
 // DAILY REPORT

@@ -5,7 +5,7 @@ const Item =
 require("../models/item");
 
 const Customer =
-require("../models/Customer");
+require("../models/customer");
 
 // ----------------------------------
 // Get Notifications

@@ -3,7 +3,7 @@ const validator = require("validator");
 const authMiddleware = require("../middleware/authMiddleware");
 const roleMiddleware = require("../middleware/roleMiddleware");
 
-const Customer = require("../models/Customer");
+const Customer = require("../models/customer");
 const Transaction = require("../models/Transaction");
 
 const router = express.Router();
